@@ -193,6 +193,10 @@ p {
     .horarios {
         flex-direction: column;
     }
+
+    .horarios p {
+        text-align: center;
+    }
 }
 
 /* Contact info */
@@ -204,6 +208,8 @@ p {
 }
 
 .contactos_caja {
+    max-width: 1024px;
+    margin: auto;
     display: flex;
     justify-content: space-evenly;
 }
